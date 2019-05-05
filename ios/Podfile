@@ -9,6 +9,7 @@ target 'tichu-scorer' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'SQLite.swift'
 
   target 'tichu-scorerTests' do
     inherit! :search_paths

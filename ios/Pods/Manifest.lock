@@ -92,10 +92,14 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.7.0)
+  - SQLite.swift (0.12.0):
+    - SQLite.swift/standard (= 0.12.0)
+  - SQLite.swift/standard (0.12.0)
 
 DEPENDENCIES:
   - Firebase/Core
   - Firebase/Firestore
+  - SQLite.swift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -113,6 +117,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - Protobuf
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   BoringSSL-GRPC: 2a230d9cd93e7ce39916044f645cebb31f37dde6
@@ -129,7 +134,8 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  SQLite.swift: 7cad9db150a03716336e69469ec9559c85aece5b
 
-PODFILE CHECKSUM: 3d82a200949699327a435e2a7e53679e3d78a05e
+PODFILE CHECKSUM: 2ea25700a60f6e3fd34cf7c0f2af9018ccb8ee83
 
 COCOAPODS: 1.6.1

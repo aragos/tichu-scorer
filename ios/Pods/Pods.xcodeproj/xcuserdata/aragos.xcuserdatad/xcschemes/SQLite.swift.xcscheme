@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50B5F5DC448E02DAC7F8726AB78EE5BE"
-               BuildableName = "Pods_tichu_scorer.framework"
-               BlueprintName = "Pods-tichu-scorer"
+               BlueprintIdentifier = "06DD405BBE1427309753BFE6E3B6C5B1"
+               BuildableName = "SQLite.framework"
+               BlueprintName = "SQLite.swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B5F5DC448E02DAC7F8726AB78EE5BE"
-            BuildableName = "Pods_tichu_scorer.framework"
-            BlueprintName = "Pods-tichu-scorer"
+            BlueprintIdentifier = "06DD405BBE1427309753BFE6E3B6C5B1"
+            BuildableName = "SQLite.framework"
+            BlueprintName = "SQLite.swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
