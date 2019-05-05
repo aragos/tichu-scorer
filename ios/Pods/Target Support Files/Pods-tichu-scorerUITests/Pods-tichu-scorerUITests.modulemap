@@ -1,0 +1,6 @@
+framework module Pods_tichu_scorerUITests {
+  umbrella header "Pods-tichu-scorerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

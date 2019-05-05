@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2807C18F3FB3B9588549BCF7 /* Pods_tichu_scorerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56A102FCBBDA117DA2AC537 /* Pods_tichu_scorerUITests.framework */; };
+		7967409E4E33824774464D1E /* Pods_tichu_scorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9692E3B8940583058030F16B /* Pods_tichu_scorer.framework */; };
+		9DC7164EB0B2B6D5B66E8B6B /* Pods_tichu_scorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EC70962CC59114E451E5F9 /* Pods_tichu_scorerTests.framework */; };
+		E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965A227F59340034AFF2 /* AppDelegate.swift */; };
+		E5D8965D227F59340034AFF2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965C227F59340034AFF2 /* RootViewController.swift */; };
+		E5D8965F227F59340034AFF2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965E227F59340034AFF2 /* DataViewController.swift */; };
+		E5D89661227F59340034AFF2 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D89660227F59340034AFF2 /* ModelController.swift */; };
+		E5D89664227F59340034AFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D89662227F59340034AFF2 /* Main.storyboard */; };
+		E5D89666227F59350034AFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D89665227F59350034AFF2 /* Assets.xcassets */; };
+		E5D89669227F59350034AFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D89667227F59350034AFF2 /* LaunchScreen.storyboard */; };
+		E5D89674227F59350034AFF2 /* tichu_scorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D89673227F59350034AFF2 /* tichu_scorerTests.swift */; };
+		E5D8967F227F59350034AFF2 /* tichu_scorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8967E227F59350034AFF2 /* tichu_scorerUITests.swift */; };
+		E5D8968D227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */; };
+		E5D8968E227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */; };
+		E5D8968F227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5D89670227F59350034AFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D8964F227F59340034AFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D89656227F59340034AFF2;
+			remoteInfo = "tichu-scorer";
+		};
+		E5D8967B227F59350034AFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D8964F227F59340034AFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D89656227F59340034AFF2;
+			remoteInfo = "tichu-scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0570A00D08EC17B9D3B7F746 /* Pods-tichu-scorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorerTests.debug.xcconfig"; path = "Target Support Files/Pods-tichu-scorerTests/Pods-tichu-scorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2B0191AB1ADECA55201B23 /* Pods-tichu-scorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorerUITests.debug.xcconfig"; path = "Target Support Files/Pods-tichu-scorerUITests/Pods-tichu-scorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF9E919EE7EDF6BC95C5255 /* Pods-tichu-scorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorer.release.xcconfig"; path = "Target Support Files/Pods-tichu-scorer/Pods-tichu-scorer.release.xcconfig"; sourceTree = "<group>"; };
+		9692E3B8940583058030F16B /* Pods_tichu_scorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tichu_scorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EC70962CC59114E451E5F9 /* Pods_tichu_scorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tichu_scorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DF9B8779E9805177B37D4 /* Pods-tichu-scorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorerUITests.release.xcconfig"; path = "Target Support Files/Pods-tichu-scorerUITests/Pods-tichu-scorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D89657227F59340034AFF2 /* tichu-scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tichu-scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D8965A227F59340034AFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5D8965C227F59340034AFF2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E5D8965E227F59340034AFF2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		E5D89660227F59340034AFF2 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		E5D89663227F59340034AFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5D89665227F59350034AFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5D89668227F59350034AFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5D8966A227F59350034AFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D8966F227F59350034AFF2 /* tichu-scorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tichu-scorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D89673227F59350034AFF2 /* tichu_scorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tichu_scorerTests.swift; sourceTree = "<group>"; };
+		E5D89675227F59350034AFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D8967A227F59350034AFF2 /* tichu-scorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tichu-scorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D8967E227F59350034AFF2 /* tichu_scorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tichu_scorerUITests.swift; sourceTree = "<group>"; };
+		E5D89680227F59350034AFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E6E7EDA567000C1B81FE9AFA /* Pods-tichu-scorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorerTests.release.xcconfig"; path = "Target Support Files/Pods-tichu-scorerTests/Pods-tichu-scorerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F56A102FCBBDA117DA2AC537 /* Pods_tichu_scorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tichu_scorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92EC0A8E076274C2B504022 /* Pods-tichu-scorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorer.debug.xcconfig"; path = "Target Support Files/Pods-tichu-scorer/Pods-tichu-scorer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5D89654227F59340034AFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7967409E4E33824774464D1E /* Pods_tichu_scorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D8966C227F59350034AFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC7164EB0B2B6D5B66E8B6B /* Pods_tichu_scorerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D89677227F59350034AFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807C18F3FB3B9588549BCF7 /* Pods_tichu_scorerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF52DC762360BC1328B159F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92EC0A8E076274C2B504022 /* Pods-tichu-scorer.debug.xcconfig */,
+				8AF9E919EE7EDF6BC95C5255 /* Pods-tichu-scorer.release.xcconfig */,
+				0570A00D08EC17B9D3B7F746 /* Pods-tichu-scorerTests.debug.xcconfig */,
+				E6E7EDA567000C1B81FE9AFA /* Pods-tichu-scorerTests.release.xcconfig */,
+				4E2B0191AB1ADECA55201B23 /* Pods-tichu-scorerUITests.debug.xcconfig */,
+				9B6DF9B8779E9805177B37D4 /* Pods-tichu-scorerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B86F0E2D38DE9AE01A4FB6D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9692E3B8940583058030F16B /* Pods_tichu_scorer.framework */,
+				99EC70962CC59114E451E5F9 /* Pods_tichu_scorerTests.framework */,
+				F56A102FCBBDA117DA2AC537 /* Pods_tichu_scorerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5D8964E227F59340034AFF2 = {
+			isa = PBXGroup;
+			children = (
+				E5D89659227F59340034AFF2 /* tichu-scorer */,
+				E5D89672227F59350034AFF2 /* tichu-scorerTests */,
+				E5D8967D227F59350034AFF2 /* tichu-scorerUITests */,
+				E5D89658227F59340034AFF2 /* Products */,
+				0BF52DC762360BC1328B159F /* Pods */,
+				B86F0E2D38DE9AE01A4FB6D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5D89658227F59340034AFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5D89657227F59340034AFF2 /* tichu-scorer.app */,
+				E5D8966F227F59350034AFF2 /* tichu-scorerTests.xctest */,
+				E5D8967A227F59350034AFF2 /* tichu-scorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5D89659227F59340034AFF2 /* tichu-scorer */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */,
+				E5D8965A227F59340034AFF2 /* AppDelegate.swift */,
+				E5D8965C227F59340034AFF2 /* RootViewController.swift */,
+				E5D8965E227F59340034AFF2 /* DataViewController.swift */,
+				E5D89660227F59340034AFF2 /* ModelController.swift */,
+				E5D89662227F59340034AFF2 /* Main.storyboard */,
+				E5D89665227F59350034AFF2 /* Assets.xcassets */,
+				E5D89667227F59350034AFF2 /* LaunchScreen.storyboard */,
+				E5D8966A227F59350034AFF2 /* Info.plist */,
+			);
+			path = "tichu-scorer";
+			sourceTree = "<group>";
+		};
+		E5D89672227F59350034AFF2 /* tichu-scorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5D89673227F59350034AFF2 /* tichu_scorerTests.swift */,
+				E5D89675227F59350034AFF2 /* Info.plist */,
+			);
+			path = "tichu-scorerTests";
+			sourceTree = "<group>";
+		};
+		E5D8967D227F59350034AFF2 /* tichu-scorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8967E227F59350034AFF2 /* tichu_scorerUITests.swift */,
+				E5D89680227F59350034AFF2 /* Info.plist */,
+			);
+			path = "tichu-scorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5D89656227F59340034AFF2 /* tichu-scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D89683227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorer" */;
+			buildPhases = (
+				91512058B5EA031301A68477 /* [CP] Check Pods Manifest.lock */,
+				E5D89653227F59340034AFF2 /* Sources */,
+				E5D89654227F59340034AFF2 /* Frameworks */,
+				E5D89655227F59340034AFF2 /* Resources */,
+				95ACC9AB10B568E49AC23745 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tichu-scorer";
+			productName = "tichu-scorer";
+			productReference = E5D89657227F59340034AFF2 /* tichu-scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5D8966E227F59350034AFF2 /* tichu-scorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D89686227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorerTests" */;
+			buildPhases = (
+				9F1AD4E0CE88687921DEF07F /* [CP] Check Pods Manifest.lock */,
+				E5D8966B227F59350034AFF2 /* Sources */,
+				E5D8966C227F59350034AFF2 /* Frameworks */,
+				E5D8966D227F59350034AFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5D89671227F59350034AFF2 /* PBXTargetDependency */,
+			);
+			name = "tichu-scorerTests";
+			productName = "tichu-scorerTests";
+			productReference = E5D8966F227F59350034AFF2 /* tichu-scorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5D89679227F59350034AFF2 /* tichu-scorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D89689227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorerUITests" */;
+			buildPhases = (
+				D6D41B91B427A346B4C538BF /* [CP] Check Pods Manifest.lock */,
+				E5D89676227F59350034AFF2 /* Sources */,
+				E5D89677227F59350034AFF2 /* Frameworks */,
+				E5D89678227F59350034AFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5D8967C227F59350034AFF2 /* PBXTargetDependency */,
+			);
+			name = "tichu-scorerUITests";
+			productName = "tichu-scorerUITests";
+			productReference = E5D8967A227F59350034AFF2 /* tichu-scorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5D8964F227F59340034AFF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Peter Schmitt";
+				TargetAttributes = {
+					E5D89656227F59340034AFF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E5D8966E227F59350034AFF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E5D89656227F59340034AFF2;
+					};
+					E5D89679227F59350034AFF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E5D89656227F59340034AFF2;
+					};
+				};
+			};
+			buildConfigurationList = E5D89652227F59340034AFF2 /* Build configuration list for PBXProject "tichu-scorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5D8964E227F59340034AFF2;
+			productRefGroup = E5D89658227F59340034AFF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D89656227F59340034AFF2 /* tichu-scorer */,
+				E5D8966E227F59350034AFF2 /* tichu-scorerTests */,
+				E5D89679227F59350034AFF2 /* tichu-scorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5D89655227F59340034AFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D89669227F59350034AFF2 /* LaunchScreen.storyboard in Resources */,
+				E5D8968D227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */,
+				E5D89666227F59350034AFF2 /* Assets.xcassets in Resources */,
+				E5D89664227F59340034AFF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D8966D227F59350034AFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D8968E227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D89678227F59350034AFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D8968F227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91512058B5EA031301A68477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tichu-scorer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95ACC9AB10B568E49AC23745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tichu-scorer/Pods-tichu-scorer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tichu-scorer/Pods-tichu-scorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1AD4E0CE88687921DEF07F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tichu-scorerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D41B91B427A346B4C538BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tichu-scorerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5D89653227F59340034AFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D8965D227F59340034AFF2 /* RootViewController.swift in Sources */,
+				E5D89661227F59340034AFF2 /* ModelController.swift in Sources */,
+				E5D8965F227F59340034AFF2 /* DataViewController.swift in Sources */,
+				E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D8966B227F59350034AFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D89674227F59350034AFF2 /* tichu_scorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D89676227F59350034AFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D8967F227F59350034AFF2 /* tichu_scorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5D89671227F59350034AFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5D89656227F59340034AFF2 /* tichu-scorer */;
+			targetProxy = E5D89670227F59350034AFF2 /* PBXContainerItemProxy */;
+		};
+		E5D8967C227F59350034AFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5D89656227F59340034AFF2 /* tichu-scorer */;
+			targetProxy = E5D8967B227F59350034AFF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5D89662227F59340034AFF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5D89663227F59340034AFF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5D89667227F59350034AFF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5D89668227F59350034AFF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5D89681227F59350034AFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5D89682227F59350034AFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5D89684227F59350034AFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92EC0A8E076274C2B504022 /* Pods-tichu-scorer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5D89685227F59350034AFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF9E919EE7EDF6BC95C5255 /* Pods-tichu-scorer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5D89687227F59350034AFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0570A00D08EC17B9D3B7F746 /* Pods-tichu-scorerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tichu-scorer.app/tichu-scorer";
+			};
+			name = Debug;
+		};
+		E5D89688227F59350034AFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E7EDA567000C1B81FE9AFA /* Pods-tichu-scorerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tichu-scorer.app/tichu-scorer";
+			};
+			name = Release;
+		};
+		E5D8968A227F59350034AFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2B0191AB1ADECA55201B23 /* Pods-tichu-scorerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tichu-scorer";
+			};
+			name = Debug;
+		};
+		E5D8968B227F59350034AFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6DF9B8779E9805177B37D4 /* Pods-tichu-scorerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73DQZYTRTA;
+				INFOPLIST_FILE = "tichu-scorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tichu-scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5D89652227F59340034AFF2 /* Build configuration list for PBXProject "tichu-scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D89681227F59350034AFF2 /* Debug */,
+				E5D89682227F59350034AFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D89683227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D89684227F59350034AFF2 /* Debug */,
+				E5D89685227F59350034AFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D89686227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D89687227F59350034AFF2 /* Debug */,
+				E5D89688227F59350034AFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D89689227F59350034AFF2 /* Build configuration list for PBXNativeTarget "tichu-scorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D8968A227F59350034AFF2 /* Debug */,
+				E5D8968B227F59350034AFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5D8964F227F59340034AFF2 /* Project object */;
+}
