@@ -1,0 +1,5 @@
+# Mac system bookkeeping
+*.DS_Store
+
+# Lock files of any kind
+*.lock
