@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerScoreView" customModule="tichu_scorer" customModuleProvider="target">
+            <connections>
+                <outlet property="callControl" destination="h3Z-j6-PI2" id="Rv7-7z-3a8"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="BsY-nd-o6u"/>
+                <outlet property="playerNameLabel" destination="dM1-7O-ERc" id="MRd-xe-jaF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="KgN-2G-Jek">
+                    <rect key="frame" x="0.0" y="0.0" width="267" height="124"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlayerName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dM1-7O-ERc">
+                            <rect key="frame" x="0.0" y="0.0" width="267" height="24"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="h3Z-j6-PI2">
+                            <rect key="frame" x="0.0" y="41" width="267" height="84"/>
+                            <segments>
+                                <segment title="T"/>
+                                <segment title=""/>
+                                <segment title="GT"/>
+                            </segments>
+                        </segmentedControl>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.67334782859160436" green="1" blue="0.91886545530043207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KgN-2G-Jek" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BFe-Ef-VYA"/>
+                <constraint firstAttribute="bottom" secondItem="KgN-2G-Jek" secondAttribute="bottom" id="D9B-lQ-wzb"/>
+                <constraint firstItem="KgN-2G-Jek" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cpa-bZ-rjW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KgN-2G-Jek" secondAttribute="trailing" id="nPv-k2-TQp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="3233" y="-146"/>
+        </view>
+    </objects>
+</document>
