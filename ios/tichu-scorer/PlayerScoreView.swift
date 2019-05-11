@@ -35,19 +35,28 @@ class PlayerScoreView: UIView {
         playerNameLabel.text = name
     }
     
-    func getCall() -> String {
+    func getCall() -> Call {
         let selected = callControl.selectedSegmentIndex
         if (selected == 0) {
-            return "T"
+            return .tichu
         } else if (selected == 2) {
-            return "GT"
+            return .grand
         } else {
-            return ""
+            return .none
         }
     }
     
-    func resetCall() {
-        callControl.selectedSegmentIndex = 1
+    func setCall(call: Call) {
+        var selected: Int
+        switch call {
+        case .tichu:
+            selected = 0
+        case .grand:
+            selected =  2
+        default:
+            selected =  1
+        }
+        callControl.selectedSegmentIndex = selected
     }
 }
 

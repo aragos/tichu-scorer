@@ -10,10 +10,18 @@
 		2807C18F3FB3B9588549BCF7 /* Pods_tichu_scorerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56A102FCBBDA117DA2AC537 /* Pods_tichu_scorerUITests.framework */; };
 		7967409E4E33824774464D1E /* Pods_tichu_scorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9692E3B8940583058030F16B /* Pods_tichu_scorer.framework */; };
 		9DC7164EB0B2B6D5B66E8B6B /* Pods_tichu_scorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EC70962CC59114E451E5F9 /* Pods_tichu_scorerTests.framework */; };
+		E50833BF2284BDF20074D385 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833BE2284BDF20074D385 /* ScoreViewController.swift */; };
+		E50833C12285F0680074D385 /* ScoreHandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50833C02285F0680074D385 /* ScoreHandView.xib */; };
+		E50833C32285F91B0074D385 /* ScoreHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833C22285F91B0074D385 /* ScoreHandViewController.swift */; };
+		E50833C52285FC940074D385 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833C42285FC940074D385 /* GameState.swift */; };
+		E50833C7228605410074D385 /* GameStateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833C6228605410074D385 /* GameStateController.swift */; };
+		E50833C92286091E0074D385 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833C82286091E0074D385 /* Player.swift */; };
+		E50833CB2286094A0074D385 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CA2286094A0074D385 /* Position.swift */; };
+		E50833CD228609690074D385 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CC228609690074D385 /* Call.swift */; };
+		E50833CF22860C2C0074D385 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CE22860C2C0074D385 /* Hand.swift */; };
+		E594C139227FAF6A0011CE7E /* PlayerScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E594C138227FAF6A0011CE7E /* PlayerScoreView.xib */; };
+		E594C13B227FB1D10011CE7E /* PlayerScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594C13A227FB1D10011CE7E /* PlayerScoreView.swift */; };
 		E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965A227F59340034AFF2 /* AppDelegate.swift */; };
-		E5D8965D227F59340034AFF2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965C227F59340034AFF2 /* RootViewController.swift */; };
-		E5D8965F227F59340034AFF2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965E227F59340034AFF2 /* DataViewController.swift */; };
-		E5D89661227F59340034AFF2 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D89660227F59340034AFF2 /* ModelController.swift */; };
 		E5D89664227F59340034AFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D89662227F59340034AFF2 /* Main.storyboard */; };
 		E5D89666227F59350034AFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D89665227F59350034AFF2 /* Assets.xcassets */; };
 		E5D89669227F59350034AFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D89667227F59350034AFF2 /* LaunchScreen.storyboard */; };
@@ -48,11 +56,19 @@
 		9692E3B8940583058030F16B /* Pods_tichu_scorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tichu_scorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EC70962CC59114E451E5F9 /* Pods_tichu_scorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tichu_scorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6DF9B8779E9805177B37D4 /* Pods-tichu-scorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tichu-scorerUITests.release.xcconfig"; path = "Target Support Files/Pods-tichu-scorerUITests/Pods-tichu-scorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E50833BE2284BDF20074D385 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E50833C02285F0680074D385 /* ScoreHandView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreHandView.xib; sourceTree = "<group>"; };
+		E50833C22285F91B0074D385 /* ScoreHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreHandViewController.swift; sourceTree = "<group>"; };
+		E50833C42285FC940074D385 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		E50833C6228605410074D385 /* GameStateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateController.swift; sourceTree = "<group>"; };
+		E50833C82286091E0074D385 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E50833CA2286094A0074D385 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		E50833CC228609690074D385 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		E50833CE22860C2C0074D385 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		E594C138227FAF6A0011CE7E /* PlayerScoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerScoreView.xib; sourceTree = "<group>"; };
+		E594C13A227FB1D10011CE7E /* PlayerScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreView.swift; sourceTree = "<group>"; };
 		E5D89657227F59340034AFF2 /* tichu-scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tichu-scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D8965A227F59340034AFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5D8965C227F59340034AFF2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		E5D8965E227F59340034AFF2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		E5D89660227F59340034AFF2 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		E5D89663227F59340034AFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5D89665227F59350034AFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D89668227F59350034AFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +123,6 @@
 				4E2B0191AB1ADECA55201B23 /* Pods-tichu-scorerUITests.debug.xcconfig */,
 				9B6DF9B8779E9805177B37D4 /* Pods-tichu-scorerUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,13 +163,21 @@
 			children = (
 				E5D8968C227F5B2B0034AFF2 /* GoogleService-Info.plist */,
 				E5D8965A227F59340034AFF2 /* AppDelegate.swift */,
-				E5D8965C227F59340034AFF2 /* RootViewController.swift */,
-				E5D8965E227F59340034AFF2 /* DataViewController.swift */,
-				E5D89660227F59340034AFF2 /* ModelController.swift */,
 				E5D89662227F59340034AFF2 /* Main.storyboard */,
 				E5D89665227F59350034AFF2 /* Assets.xcassets */,
 				E5D89667227F59350034AFF2 /* LaunchScreen.storyboard */,
 				E5D8966A227F59350034AFF2 /* Info.plist */,
+				E594C138227FAF6A0011CE7E /* PlayerScoreView.xib */,
+				E594C13A227FB1D10011CE7E /* PlayerScoreView.swift */,
+				E50833BE2284BDF20074D385 /* ScoreViewController.swift */,
+				E50833C02285F0680074D385 /* ScoreHandView.xib */,
+				E50833C22285F91B0074D385 /* ScoreHandViewController.swift */,
+				E50833C42285FC940074D385 /* GameState.swift */,
+				E50833C6228605410074D385 /* GameStateController.swift */,
+				E50833C82286091E0074D385 /* Player.swift */,
+				E50833CA2286094A0074D385 /* Position.swift */,
+				E50833CC228609690074D385 /* Call.swift */,
+				E50833CE22860C2C0074D385 /* Hand.swift */,
 			);
 			path = "tichu-scorer";
 			sourceTree = "<group>";
@@ -287,7 +310,9 @@
 			files = (
 				E5D89669227F59350034AFF2 /* LaunchScreen.storyboard in Resources */,
 				E5D8968D227F5B2B0034AFF2 /* GoogleService-Info.plist in Resources */,
+				E594C139227FAF6A0011CE7E /* PlayerScoreView.xib in Resources */,
 				E5D89666227F59350034AFF2 /* Assets.xcassets in Resources */,
+				E50833C12285F0680074D385 /* ScoreHandView.xib in Resources */,
 				E5D89664227F59340034AFF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,10 +445,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D8965D227F59340034AFF2 /* RootViewController.swift in Sources */,
-				E5D89661227F59340034AFF2 /* ModelController.swift in Sources */,
-				E5D8965F227F59340034AFF2 /* DataViewController.swift in Sources */,
+				E594C13B227FB1D10011CE7E /* PlayerScoreView.swift in Sources */,
+				E50833CD228609690074D385 /* Call.swift in Sources */,
 				E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */,
+				E50833C52285FC940074D385 /* GameState.swift in Sources */,
+				E50833C32285F91B0074D385 /* ScoreHandViewController.swift in Sources */,
+				E50833C92286091E0074D385 /* Player.swift in Sources */,
+				E50833CF22860C2C0074D385 /* Hand.swift in Sources */,
+				E50833BF2284BDF20074D385 /* ScoreViewController.swift in Sources */,
+				E50833CB2286094A0074D385 /* Position.swift in Sources */,
+				E50833C7228605410074D385 /* GameStateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
