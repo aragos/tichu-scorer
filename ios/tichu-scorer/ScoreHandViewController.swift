@@ -44,13 +44,16 @@ class ScoreHandViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        let gameState = getSafeGameState()
-        
         super.viewDidLoad()
         
         scorePickerController = ScorePickerViewController(scoreUpdateCallback: self)
         scorePicker.dataSource = scorePickerController
         scorePicker.delegate = scorePickerController
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let gameState = getSafeGameState()
+        
         scorePickerController?.select50Rows(pickerView: scorePicker)
         
         firstOutPickerController = FirstOutPickerViewController(players: gameState.players, scoreUpdateCallback: self)

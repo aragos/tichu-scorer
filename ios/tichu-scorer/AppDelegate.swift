@@ -14,17 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var gameStateController: GameStateController?
+    var playerController: PlayerController?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         
         gameStateController = GameStateController()
+        playerController = PlayerController()
         
         guard let navigationController = window?.rootViewController as? UINavigationController,
-            let scoreViewController = navigationController.viewControllers[0] as? ScoreViewController else {
+            let menuViewController = navigationController.topViewController as? MenuViewController else {
             return true
         }
-        scoreViewController.gameStateController = gameStateController
+        menuViewController.gameStateController = gameStateController
+        menuViewController.playerController = playerController
         
         return true
     }

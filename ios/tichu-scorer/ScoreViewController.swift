@@ -31,21 +31,6 @@ class ScoreViewController: UIViewController {
     
     var gameStateController: GameStateController?
     
-    override func viewDidLoad() {
-        guard let gameState = gameStateController?.currentGame else {
-            fatalError("Game state must be set to load game view")
-        }
-        
-        super.viewDidLoad()
-        
-        for position in Position.allCases {
-            refreshPositionView(position: position, gameState: gameState)
-        }
-        
-        eastWestScore.text = String(gameState.eastWestScore)
-        northSouthScore.text = String(gameState.northSouthScore)
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         guard let gameState = gameStateController?.currentGame else {
             fatalError("Game state must be set to load game view")

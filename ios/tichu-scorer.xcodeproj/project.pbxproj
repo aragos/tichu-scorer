@@ -19,6 +19,10 @@
 		E50833CB2286094A0074D385 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CA2286094A0074D385 /* Position.swift */; };
 		E50833CD228609690074D385 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CC228609690074D385 /* Call.swift */; };
 		E50833CF22860C2C0074D385 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833CE22860C2C0074D385 /* Hand.swift */; };
+		E50833D12286EFCC0074D385 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833D02286EFCC0074D385 /* MenuViewController.swift */; };
+		E50833D3228708620074D385 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833D2228708620074D385 /* NewGameViewController.swift */; };
+		E50833D5228708AF0074D385 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833D4228708AF0074D385 /* PlayerController.swift */; };
+		E50833DD228B877C0074D385 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50833DC228B877C0074D385 /* PlayerCell.swift */; };
 		E594C139227FAF6A0011CE7E /* PlayerScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E594C138227FAF6A0011CE7E /* PlayerScoreView.xib */; };
 		E594C13B227FB1D10011CE7E /* PlayerScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594C13A227FB1D10011CE7E /* PlayerScoreView.swift */; };
 		E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8965A227F59340034AFF2 /* AppDelegate.swift */; };
@@ -65,6 +69,10 @@
 		E50833CA2286094A0074D385 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		E50833CC228609690074D385 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		E50833CE22860C2C0074D385 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		E50833D02286EFCC0074D385 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E50833D2228708620074D385 /* NewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		E50833D4228708AF0074D385 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		E50833DC228B877C0074D385 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		E594C138227FAF6A0011CE7E /* PlayerScoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerScoreView.xib; sourceTree = "<group>"; };
 		E594C13A227FB1D10011CE7E /* PlayerScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreView.swift; sourceTree = "<group>"; };
 		E5D89657227F59340034AFF2 /* tichu-scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tichu-scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +186,10 @@
 				E50833CA2286094A0074D385 /* Position.swift */,
 				E50833CC228609690074D385 /* Call.swift */,
 				E50833CE22860C2C0074D385 /* Hand.swift */,
+				E50833D02286EFCC0074D385 /* MenuViewController.swift */,
+				E50833D2228708620074D385 /* NewGameViewController.swift */,
+				E50833D4228708AF0074D385 /* PlayerController.swift */,
+				E50833DC228B877C0074D385 /* PlayerCell.swift */,
 			);
 			path = "tichu-scorer";
 			sourceTree = "<group>";
@@ -447,9 +459,13 @@
 			files = (
 				E594C13B227FB1D10011CE7E /* PlayerScoreView.swift in Sources */,
 				E50833CD228609690074D385 /* Call.swift in Sources */,
+				E50833DD228B877C0074D385 /* PlayerCell.swift in Sources */,
 				E5D8965B227F59340034AFF2 /* AppDelegate.swift in Sources */,
 				E50833C52285FC940074D385 /* GameState.swift in Sources */,
+				E50833D12286EFCC0074D385 /* MenuViewController.swift in Sources */,
+				E50833D3228708620074D385 /* NewGameViewController.swift in Sources */,
 				E50833C32285F91B0074D385 /* ScoreHandViewController.swift in Sources */,
+				E50833D5228708AF0074D385 /* PlayerController.swift in Sources */,
 				E50833C92286091E0074D385 /* Player.swift in Sources */,
 				E50833CF22860C2C0074D385 /* Hand.swift in Sources */,
 				E50833BF2284BDF20074D385 /* ScoreViewController.swift in Sources */,
@@ -560,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -615,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -640,7 +656,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -659,7 +675,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.aragos.tichu-scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

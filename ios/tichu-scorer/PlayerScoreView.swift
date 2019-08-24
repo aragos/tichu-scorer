@@ -35,6 +35,7 @@ class PlayerScoreView: UIView {
         playerNameLabel.text = name
     }
     
+    // TODO: Convert to property with setter and getter observers
     func getCall() -> Call {
         let selected = callControl.selectedSegmentIndex
         if (selected == 0) {
